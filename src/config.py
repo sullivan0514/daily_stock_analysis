@@ -123,8 +123,8 @@ class Config:
     
     # === 定时任务配置 ===
     schedule_enabled: bool = False            # 是否启用定时任务
-    schedule_time: str = "18:00"              # 每日推送时间（HH:MM 格式）
-    market_review_enabled: bool = True        # 是否启用大盘复盘
+    schedule_time: str = "17:00"              # 每日推送时间（HH:MM 格式）
+    market_review_enabled: bool = False        # 是否启用大盘复盘
 
     # === 实时行情增强数据配置 ===
     # 实时行情开关（关闭后使用历史收盘价进行分析）
